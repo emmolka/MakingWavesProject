@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Smoothie Delight</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="navbar">
+        <div class="main-title">
+          <p>Smoothie Delight</p>
+        </div>
+        <div class="menu-div">
+          <div class="line"></div>
+          <ion-icon name="menu" class="menu"></ion-icon>
+          <div class="line"></div>
+        </div>
+        <nav class="navigation hidden">
+          <ul>
+            <li class="main-page-scroll">Main page</li>
+            <li class="smoothies-scroll">Smoothies</li>
+            <li class="healthy-and-delicious-scroll">Healthy & delicious</li>
+            <li class="about-us-scroll">About us</li>
+            <li class="stay-alert-scroll">Stay alert</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main-picture">
+        <h1 class="inner-title"><span>Welcome to Smoothie Delight!</span></h1>
+      </div>
+    </div>
+    <div class="our-smoothies">
+      <h2>Our Smoothies</h2>
+      <div class="line"></div>
+      <div class="smoothies">
+        <div class="smoothie1">
+          <img src="./smoothie1.jpg" />
+          <h3>Red heaven</h3>
+          <p>
+            <b>Ingredients:</b>strawberries, raspberries, nonlactose milk, mint
+          </p>
+        </div>
+        <div class="smoothie2">
+          <img src="./smoothie2.jpg" />
+          <h3>Berry Mix</h3>
+          <p>
+            <b>Ingredients:</b> raspberries, blueberries, cranberries,
+            nonlactose milk
+          </p>
+        </div>
+        <div class="smoothie3">
+          <img src="./smoothie3.jpg" />
+          <h3>Chocolate cheatday</h3>
+          <p><b>Ingredients:</b> chocolate, nonlactose milk, banana</p>
+        </div>
+        <div class="smoothie4">
+          <img src="./smoothie4.jpeg" />
+          <h3>Green Alliance</h3>
+          <p><b>Ingredients:</b> green apple, avocado, lemon, lettuce, water</p>
+        </div>
+      </div>
+    </div>
+    <div class="healthy-and-delicious">
+      <div class="healthy-and-delicious-wrapper">
+        <h2>Healthy & delicious</h2>
+        <div class="line"></div>
+        <p>
+          Our Smoothies are not only delicious- due to newly made researches the
+          big amount of vitamins and nutrients they can be helpful in heart
+          diseses and strenghten immunity
+        </p>
+        <img src="./wykres.jpg" class="vitamin-chart" />
+      </div>
+    </div>
+    <div class="about-us">
+      <h2>About us</h2>
+      <div class="line"></div>
+      <p class="about-us-description">
+        We are in Poland since 1989 delivering best smoothies in many cities
+      </p>
+      <div class="person">
+        <img src="./arnold.jpg" />
+        <p>
+          "Smoothies help my muscles to rebuild after a hard training."
+        </p>
+      </div>
+      <div class="person">
+        <p>
+          "Smoothies are great a idea to have a small and fit meal"
+        </p>
+        <img src="./margot.jpg" />
+      </div>
+    </div>
+    <footer>
+      <div class="sign-up">
+        <p class="sign-up-p">
+          Sign up to get informed about new offert and daily discounts
+        </p>
+        <input placeholder="e-mail" class="sign-up-input" />
+        <button class="sign-up-button">Sign up</button>
+      </div>
+      <div class="icons">
+        <a><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+        <a><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+        <a
+          ><ion-icon name="logo-twitter" class="icon" id="button"></ion-icon
+        ></a>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

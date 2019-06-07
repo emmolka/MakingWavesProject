@@ -1,0 +1,70 @@
+/*880-1400*/
+
+@media only screen and (min-width: 950px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .main-picture {
+    position: relative;
+  }
+
+  .menu-div {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .navbar {
+    padding-bottom: 0.4rem;
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .navigation ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+
+  .smoothies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  .smoothies img {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+  }
+
+  .smoothies img:hover {
+    opacity: 1;
+  }
+
+  .person p {
+    padding: 1rem 0.5rem;
+  }
+}
+
+/*1400-...*/
+
+@media only screen and (min-width: 1400px) {
+  .smoothies p {
+    padding: 0 5rem;
+  }
+
+  .wallpaper {
+    height: 90vh;
+  }
+
+  .vitamin-chart {
+    max-height: 600px;
+  }
+}

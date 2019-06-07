@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  color: #eee;
+}
+
+body {
+  background-color: #85144b;
+}
+
+/*Main section */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 2rem 0 2rem;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #85144b;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.5rem;
+}
+
+.main-title p {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0.4rem 0.8rem;
+}
+
+.menu-div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-div .menu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.line {
+  height: 1px;
+  content: "";
+  background-color: white;
+  width: 100vw;
+}
+.navigation ul li {
+  text-align: center;
+}
+.navigation ul li:hover {
+  cursor: pointer;
+  color: rgb(153, 77, 77);
+  transition: color 0.4s;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-picture {
+  margin-top: 68px;
+  height: 100vw;
+  max-height: 880px;
+  background: url("./wallpaper.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.inner-title {
+  font-size: 2.4rem;
+  color: white;
+  padding: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.404);
+  text-align: center;
+}
+
+/*Smoothies section */
+.our-smoothies {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.smoothies {
+  margin: 20px 0;
+}
+
+.smoothies img {
+  max-height: 300px;
+  padding-top: 20px;
+}
+
+.smoothies h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.smoothies p {
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+/*Healthy section */
+
+.healthy-and-delicious {
+  padding-top: 20px;
+  background-color: #a8356d;
+}
+
+.healthy-and-delicious-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.healthy-and-delicious p {
+  text-align: center;
+  max-width: 260px;
+  margin-top: 20px;
+}
+
+.healthy-and-delicious img {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.vitamin-chart {
+  height: 100vw;
+  max-height: 500px;
+  margin-bottom: 40px;
+}
+
+/*About us section */
+
+.about-us {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us-description {
+  text-align: center;
+  max-width: 260px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.person {
+  display: flex;
+  width: 100vw;
+  max-width: 450px;
+  padding: 0 3rem;
+  align-items: center;
+}
+
+.person img {
+  max-height: 200px;
+  max-width: 171px;
+  border-radius: 50%;
+}
+
+.person p {
+  width: 50%;
+  padding: 1rem 0.5rem;
+}
+
+/*Footer section */
+
+footer {
+  margin-top: 30px;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-up {
+  margin-top: 40px;
+  text-align: center;
+  max-width: 260px;
+}
+.sign-up-p {
+  color: #535353;
+}
+.sign-up-input {
+  padding: 0.5rem;
+  margin-top: 20px;
+  background-color: #999999;
+  border: 2px solid #999999;
+}
+.sign-up-button {
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #999999;
+}
+.icons {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+.icon {
+  color: #535353;
+  transition: color 0.2s;
+}
+.icon:hover {
+  color: #eee;
+  cursor: pointer;
+}
