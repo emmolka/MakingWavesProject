@@ -79,7 +79,7 @@ body {
   margin-top: 68px;
   height: 100vw;
   max-height: 880px;
-  background: url("./wallpaper.jpg");
+  background: url("./jpg/wallpaper.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
